@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../comps/Footer'
 import Navbar from '../comps/Navbar'
 import styles from '../styles/Home.module.css'
 
@@ -12,6 +13,8 @@ export default function Home() {
           Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.
           Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.
       </p>
+      <Footer/>
+
     </div>
 
   )
