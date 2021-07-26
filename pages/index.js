@@ -7,7 +7,6 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div>
-      <Navbar/>
       <h1>HomePage</h1>
       <p> Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
           De carne lumbering animata corpora quaeritis.
@@ -15,8 +14,6 @@ export default function Home() {
           Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.
       </p>
       <Link href="/ninjas"><a>See All Products</a></Link>
-      <Footer/>
-
     </div>
 
   )
