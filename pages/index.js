@@ -6,6 +6,11 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>Ninja List | Home</title>
+      <meta name="keywords" content="ninjas"></meta>
+    </Head>
     <div>
       <h1 className={styles.title}>HomePage</h1>
       <p className={styles.text}> Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
@@ -15,6 +20,7 @@ export default function Home() {
       </p>
       <Link href="/ninjas"><a className={styles.btn}>See All Products</a></Link>
     </div>
+    </>
 
   )
 }

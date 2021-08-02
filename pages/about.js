@@ -1,5 +1,12 @@
+import Head from 'next/head'
+
 const About = () => {
     return (
+        <>
+        <Head>
+           <title>Ninja List | About</title>
+           <meta name="keywords" content="ninjas"></meta>
+        </Head>
         <div>
             <h1>About</h1>
             <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
@@ -8,6 +15,7 @@ const About = () => {
                 Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.
             </p>
         </div>
+        </>
      );
 }
 
